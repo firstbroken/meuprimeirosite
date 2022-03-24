@@ -4,6 +4,7 @@ body{
 
 p{
     color: #ffffff;
+    font-size: 2em;
 }
 
 h1,h2{
@@ -19,7 +20,7 @@ figure{
     margin: auto;
 }
 .img_topo{
-    width: 40%;
+    width: 50%;
 }
 .img_corpo{
     width: 70%;
