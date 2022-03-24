@@ -1,13 +1,13 @@
 body{
-    background-color: 		#3CB371;
+    background-color: 		#808080;
 }
 
 p{
-    color: #800000;
+    color: #ffffff;
 }
 
 h1,h2{
-    color: blue;
+    color: #000000;
     text-align: center;
 }
 
@@ -17,4 +17,13 @@ figure{
 .container{
     width: 70%;
     margin: auto;
+}
+.img_topo{
+    width: 40%;
+}
+.img_corpo{
+    width: 70%;
+}
+.img_ultima{
+    width: 100%;
 }
