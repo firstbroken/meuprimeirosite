@@ -1,14 +1,15 @@
 body{
-    background-color: 		#808080;
+    background-image: url("https://thecolor.blog/wp-content/uploads/2021/09/como-crear-un-gif-animado.gif");
+    background-size: 100%;
 }
 
 p{
-    color: #ffffff;
+    color: 	#FFFF00;
     font-size: 2em;
 }
 
 h1,h2{
-    color: #000000;
+    color: #00FF00;
     text-align: center;
 }
 
