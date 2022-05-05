@@ -1,25 +1,17 @@
-body{
-    background-image: url('https://img.besthqwallpapers.com/Uploads/3-1-2018/35995/4k-toyota-supra-sunset-supercars-tuning.jpg');
-    background-size: 100%;
-}
-
 p{
-    color: 	#FFFF00;
+    color: 	#00FF7F;
     font-size: 2em;
     text-align: center;
 }
 
-h1,h2{
-    color: #00FF00;
+h1{
+    color: 	#006400;
     text-align: center;
 }
 
 figure{
     text-align: center;
 }
-div{
+.container{
     border: 50%;
-}
-div2{
-    border: 100%;
 }
