@@ -5,13 +5,29 @@ p{
 }
 
 h1{
-    color: 	#006400;
+    color: 	#097709;
+    font-size: 3em;
     text-align: center;
 }
 
 figure{
     text-align: center;
 }
-.container{
-    border: 50%;
+.img_principal{
+    width: 70%;
+}
+.img_topo{
+    width: 80% ;
+}
+.img_corpo{
+    width: 55% ;
+}
+.img_coluna{
+    width: 45% ;
+}
+.img_cabeca{
+    width: 45%;
+}
+.img_pe{
+    width: 52%;
 }
