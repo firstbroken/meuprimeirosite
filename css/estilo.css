@@ -9,7 +9,6 @@ h1{
     font-size: 3em;
     text-align: center;
 }
-
 figure{
     text-align: center;
 }
@@ -30,4 +29,14 @@ figure{
 }
 .img_pe{
     width: 52%;
+}
+.menu{
+    background-color: rgba(9, 7, 6, 9;
+    padding: 2%;
+}
+.itens_menu{
+    padding-top: 1%;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 1.3em;
 }
