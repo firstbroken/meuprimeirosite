@@ -1,22 +1,43 @@
+body{
+    background-color: #000;
+}
+
+.Menu{
+    background-color: rgba(28,28,28);
+    padding: 2%;
+}
+
+.itens_Menu{
+    padding-top: 1%;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+h1{
+    color: 	#808080;
+    font-size: 3em;
+    text-align: center;
+}
+
 p{
     color: 	#00FF7F;
     font-size: 2em;
     text-align: center;
 }
 
-h1{
-    color: 	#097709;
-    font-size: 3em;
+h2{
+    color: beige;
+    font-size: 1.5em;
+}
+
+figure{
     text-align: center;
 }
 
 .container{
     width: 70%;
     margin: auto;
-}
-
-figure{
-    text-align: center;
 }
 
 .img_principal{
@@ -41,18 +62,6 @@ figure{
 
 .img_pe{
     width: 52%;
-}
-
-.Menu{
-    background-color: rgba(79,79,79);
-    padding: 2%;
-}
-
-.itens_Menu{
-    padding-top: 1%;
-    line-height: 1.5;
-    text-align: center;
-    font-size: 1.3em;
 }
 
 a:link{
