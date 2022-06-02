@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #000;
 }
@@ -12,6 +16,29 @@ body{
     line-height: 1.5;
     text-align: center;
     font-size: 1.3em;
+}
+
+.itens_Menu a:visited, .itens_Menu a:link{
+    color: #00FA9A	;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.itens_Menu a:hover{
+    background-color: rgb(169,169,169, 0.7);
+    padding: 0,9%;
+}
+
+.itens_Menu a:active{
+    color: aqua;
+}
+
+#MI a:visited, #MI a:link{
+    color: #00FF7F;
+}
+
+#MI a:hover{
+    color: #696969	;
 }
 
 h1{
@@ -64,19 +91,30 @@ figure{
     width: 52%;
 }
 
-a:link{
-    color: #00FF7F;
-}
-
-a:visited{
-    color: aqua;
-}
-
-a:hover{
-    color: antiquewhite;
-}
-
 footer{
-    background-color: rgba(220,220,220);
+    background-color: rgba(28,28,28);
     padding: 2%;
+}
+
+.botao{
+    margin: 1%;
+    width: 100px;
+    height: 100x;
+    padding: 3%;
+    background-color: rgb(169,169,169, 0.7);
+    margin: auto;
+}
+
+.botao:hover {
+    background-color: #556B2F;
+}
+
+.botao a:link, .botao a:visited{
+    color: #808000	 ;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.botao p{
+    text-align: center;
 }
