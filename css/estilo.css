@@ -1,3 +1,8 @@
+@font-face {
+    font-family: VT323-Regular ;
+    src: url("../Fonts/VT323-Regular.ttf");
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -41,16 +46,19 @@ body{
     color: #696969	;
 }
 
+
 h1{
     color: 	#808080;
     font-size: 3em;
     text-align: center;
+font-family: "VT323-Regular", cursive;
 }
 
 p{
     color: 	#00FF7F;
     font-size: 2em;
     text-align: center;
+    font-family: 'Roboto Mono', monospace;
 }
 
 h2{
@@ -99,7 +107,7 @@ footer{
 
 .botao{
     background-color: rgb(169,169,169, 0.7);
-    width: 6em;
+    width: 8em;
     height: 2cm;
     margin: auto ;
     text-align: center;
