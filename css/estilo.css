@@ -124,3 +124,13 @@ footer{
 .botao p{
     text-align: center;
 }
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr,td,th{
+    color: aliceblue;
+    border: 2px dashed #ffff;
+    padding: 1%;
+}
