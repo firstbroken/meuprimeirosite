@@ -76,27 +76,27 @@ figure{
 }
 
 .img_principal{
-    width: 70%;
+    width: 95%;
 }
 
 .img_topo{
-    width: 80% ;
+    width: 90% ;
 }
 
 .img_corpo{
-    width: 55% ;
+    width: 90% ;
 }
 
 .img_coluna{
-    width: 45% ;
+    width: 90% ;
 }
 
 .img_cabeca{
-    width: 45%;
+    width: 90%;
 }
 
 .img_pe{
-    width: 52%;
+    width: 90%;
 }
 
 footer{
@@ -106,7 +106,7 @@ footer{
 }
 
 .botao{
-    background-color: rgb(169,169,169, 0.7);
+    background-color: rgb(28,28,28, 0.7);
     width: 8em;
     height: 2cm;
     margin: auto ;
@@ -114,11 +114,11 @@ footer{
 }
 
 .botao:hover {
-    background-color: #556B2F;
+    background-color: #006400;
 }
 
 .botao a:link, .botao a:visited{
-    color: #808000	 ;
+    color: #006400	 ;
 }
 
 .botao p{
@@ -237,4 +237,8 @@ input[type=submit]{
 
 .main{
     margin-top: 8%;
+}
+
+.vfi{
+    width: 90%;
 }
