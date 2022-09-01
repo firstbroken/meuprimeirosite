@@ -190,42 +190,6 @@ input[type=submit]{
     clear: both;
 }
 
-.topoesquerda{
-    position: absolute;
-    top: 16px;
-    left: 16px;
-    font-size: 18px;
-    width: 20px;
-    background-color: green;
-}
-
-.abaixodireita{
-    position: absolute;
-    bottom: 16px;
-    left: 16px;
-    font-size: 18px;
-    width: 20px;
-    background-color: green;
-}
-
-.abaixoesquerda{
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-    font-size: 18px;
-    width: 20px;
-    background-color: green;
-}
-
-.centro{
-    position: absolute;
-    top: 50%;   
-    font-size: 18px;
-    width: 20px;
-    background-color: green;
-    margin-left: 40%;
-}
-
 .fixo{
     position: fixed;
     top: 0;
