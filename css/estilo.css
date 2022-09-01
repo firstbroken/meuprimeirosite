@@ -12,8 +12,22 @@ body{
 }
 
 .Menu{
-    background-color: rgba(28,28,28);
+    background-color: rgba(red, green, blue, alpha);
     padding: 2%;
+}
+
+.img_logo{
+    width: 20%;
+}
+
+.Logo{
+    text-align: center;
+}
+
+header{
+    text-align: center;
+    position: fixed;
+    width: 100%;
 }
 
 .itens_Menu{
