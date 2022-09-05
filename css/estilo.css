@@ -175,6 +175,10 @@ input[type=submit]{
     float: right;
 }
 
+audio{
+    width: 90%;
+}
+
 input[type=submit]{
     background-color:#808000;
 }
@@ -218,5 +222,10 @@ input[type=submit]{
 }
 
 .vfi{
-    width: 90%;
+    width: 80%;
+
+}
+
+@media screen {
+    
 }

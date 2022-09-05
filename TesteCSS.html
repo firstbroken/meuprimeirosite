@@ -1,27 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste Css interno e inline</title>
+    <title>Teste CSS Inline-Interno</title>
     <style>
         body{
-            background-color: aquamarine;
-        }
-        h1{
-            background-color: brown;
-        }
-        p{
-            background-color: aqua;
+            background-color: blueviolet;
         }
 
+        h1{
+            text-align: center;
+            font-weight: bold;
+        }
+
+        p{
+            color: brown;
+        }
         .container{
-        position: relative;
-        background-color: pink;
-        width: 100%;
-        height: 1220px;
-        text-align: center;
+            position: relative;
+            width: 100%;
+            height: 1220px;
+            text-align: center;
         }
 
         .topoesquerda{
@@ -29,15 +30,15 @@
             top: 16px;
             left: 16px;
             font-size: 18px;
-            width: 20px;
-            background-color: green;
+            width: 20%;
+            background-color: aqua;
         }
 
         .topodireita{
             position: absolute;
             top: 16px;
             right: 16px;
-            font-size: 18px ;
+            font-size: 18px;
             width: 20%;
             background-color: red;
         }
@@ -47,8 +48,8 @@
             bottom: 16px;
             left: 16px;
             font-size: 18px;
-            width: 20px;
-            background-color: green;
+            width: 20%;
+            background-color: blue;
         }
 
         .baixodireita{
@@ -56,48 +57,43 @@
             bottom: 16px;
             right: 16px;
             font-size: 18px;
-            width: 20px;
-            background-color: yellow;
+            width: 20%;
+            background-color: bisque;
         }
 
         .centro{
             position: absolute;
-            width: 20%;   
-            background-color: blue;
-            top: 610px ;
+            width: 20%;
+            top: 610px;
             right: 40%;
+            background-color: palegreen;
         }
 
-        .fixo{
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 1030;
-        background-color: red;
+        .fixa{
+            position: fixed;
+            top: 0;
+            z-index: 1030;
+            right: 0;
+            left: 0;
         }
 
-        .main{
-        margin-top: 8%;
-        }
     </style>
 </head>
 <body>
-    <header class="fixo">
-        <h1>Testando Posicionamento</h1>
-    </header>
     <div class="main">
-        <h1>Testando...</h1>
+        <h1>Sim...</h1>
         <div class="container">
-            <div class="topoesquerda">topoesquerda</div>
-            <div class="topodireita">topodireita</div>
-            <div class="baixoesquerda">abaixoesquerda</div>
-            <div class="baixodireita">abaixodireita</div>
-            <div class="centro">centro</div>
+            <div class="topoesquerda">Topo Esquerda</div>
+            <div class="topodireita">Topo Direita</div>
+            <div class="baixoesquerda">Baixo Esquerda</div>
+            <div class="baixodireita">Baixo Direita</div>
+            <div class="centro">Centro</div>
         </div>
     </div>
-    <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem mollitia aperiam veniam dolore facilis quae fugiat reprehenderit labore iste! Voluptatem neque iure obcaecati quod nisi cum placeat. Assumenda, eos non.</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum numquam repellat consectetur, sequi eligendi nihil sint provident? Rerum, animi? Non ratione possimus eius perspiciatis. Vel quis eaque quaerat quae harum.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio nihil neque consequatur consequuntur voluptates, suscipit temporibus? Atque possimus adipisci hic accusantium laudantium vel facilis recusandae laboriosam non sapiente, nobis dolores.</p>
+    <header>
+        <h1 class="fixa" style="background-color:black;color:azure;">Teste CSS Inline</h1>
+        <p style="background-color:aqua ; font-style:italic">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae esse atque autem rem aliquam. Iure laboriosam beatae in quidem possimus voluptatem, explicabo cupiditate aut minima natus quibusdam impedit quasi magni!</p>
+        <p style="background-color:aqua ; font-style:italic">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae esse atque autem rem aliquam. Iure laboriosam beatae in quidem possimus voluptatem, explicabo cupiditate aut minima natus quibusdam impedit quasi magni!</p>
+    </header>
 </body>
 </html>
