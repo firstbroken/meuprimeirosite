@@ -11,11 +11,6 @@ body{
     background-color: #000;
 }
 
-.Menu{
-    background-color: rgba(red, green, blue, alpha);
-    padding: 2%;
-}
-
 .img_logo{
     width: 20%;
 }
@@ -35,6 +30,7 @@ header{
     line-height: 1.5;
     text-align: center;
     font-size: 1.3em;
+    padding: 2%;
 }
 
 .itens_Menu a:visited, .itens_Menu a:link{
@@ -65,7 +61,7 @@ h1{
     color: 	#808080;
     font-size: 3em;
     text-align: center;
-font-family: "VT323-Regular", cursive;
+    font-family: "VT323-Regular", cursive;
 }
 
 p{
@@ -214,7 +210,6 @@ input[type=submit]{
     right: 0;
     left: 0;
     z-index: 1030;
-    background-color: red;
 }
 
 .main{
@@ -226,6 +221,37 @@ input[type=submit]{
 
 }
 
-@media screen {
-    
+/* Altera as imagens menor de 600px*/
+@media screen and (max-width:600px) {
+    .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+    }    
+
+    .itens_Menu{
+        padding-top: 1%;
+        line-height: 1.5;
+        text-align: center;
+        font-size: 0.7em;
+        padding: 2%;
+    }
+
+    p{
+        font-size: 90%;
+    }
+
+    h1{
+        font-size: 175%;
+    }
+}
+
+/*Altera as imagens maiores de 601px*/
+@media screen and (min-width:601px) {
+    header{
+    background-color: rgba(28,28,28, 0.2);
+    flex-direction: row;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    }
 }
