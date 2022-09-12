@@ -15,10 +15,6 @@ body{
     width: 20%;
 }
 
-.Logo{
-    text-align: center;
-}
-
 header{
     text-align: center;
     position: fixed;
@@ -229,6 +225,21 @@ input[type=submit]{
     align-items: center;
     }    
 
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .Logo{
+        text-align: left;
+        width: 200%;
+    }
+
+    .botao{
+        height: 1cm;
+    }
+
     .itens_Menu{
         padding-top: 1%;
         line-height: 1.5;
@@ -244,6 +255,7 @@ input[type=submit]{
     h1{
         font-size: 175%;
     }
+
 }
 
 /*Altera as imagens maiores de 601px*/
@@ -252,9 +264,15 @@ input[type=submit]{
     background-color: rgba(28,28,28, 0.2);
     flex-direction: row;
     width: 90%;
-    text-align: center;
+    text-align: right;
     margin: auto;
     }
+
+    .Logo{
+        text-align: left;
+        width: 150%;
+    }
+
 }
 
 .barra_nav {
@@ -263,7 +281,7 @@ input[type=submit]{
 }
   
 .barra_nav a {
-    float: left;
+    float: right;
     font-size: 16px;
     color: white;
     text-align: center;
@@ -272,7 +290,7 @@ input[type=submit]{
 }
   
 .sub_nav {
-    float: left;
+    float: right;
     overflow: hidden;
 }
   
@@ -314,3 +332,4 @@ input[type=submit]{
 .sub_nav:hover .subnav_links {
     display: block;
 }
+
