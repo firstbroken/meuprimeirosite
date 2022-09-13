@@ -11,14 +11,55 @@ body{
     background-color: #000;
 }
 
-.img_logo{
-    width: 20%;
-}
-
 header{
     text-align: center;
     position: fixed;
     width: 100%;
+}
+
+.menu{
+    list-style: none;
+    float: right;
+}
+
+.menu li{
+    position: relative;
+    float: left;
+}
+
+.menu li a{
+    color:springgreen;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+
+.menu li a:hover{
+    background:rgb(26, 68, 26);
+    color: white;
+    text-shadow: 0px 0px 5px black;
+}
+
+.menu li ul{
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background-color: rgb(37, 36, 36);
+    display: none;
+}
+
+.menu li:hover ul, .menu li.over ul{
+    display: block;
+}
+
+.menu li ul li{
+    border: 1px solid black;
+    display: block;
+    width: 140px;
+}
+
+.img_logo{
+    width: 20%;
 }
 
 .itens_Menu{
@@ -275,61 +316,4 @@ input[type=submit]{
 
 }
 
-.barra_nav {
-    overflow: hidden;
-    background-color: #333;
-}
-  
-.barra_nav a {
-    float: right;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-  
-.sub_nav {
-    float: right;
-    overflow: hidden;
-}
-  
-.sub_nav .sub_nav1 {
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-}
-  
-.barra_nav a:hover, .sub_nav:hover .sub_nav1 {
-    background-color: #006400;
-}
-  
-.subnav_links {
-    display: none;
-    position: absolute;
-    left: 0;
-    background-color: #228B22;
-    width: 100%;
-    z-index: 1;
-}
-  
-.subnav_links a {
-    float: left;
-    color: white;
-    text-decoration: none;
-}
-  
-.subnav_links a:hover {
-    background-color: #eee;
-    color: black;
-}
-  
-.sub_nav:hover .subnav_links {
-    display: block;
-}
 
