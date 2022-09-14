@@ -17,72 +17,8 @@ header{
     width: 100%;
 }
 
-.menu{
-    list-style: none;
-    float: right;
-}
-
-.menu li{
-    position: relative;
-    float: left;
-}
-
-.menu li a{
-    color:springgreen;
-    text-decoration: none;
-    padding: 5px 10px;
-    display: block;
-}
-
-.menu li a:hover{
-    background:rgb(26, 68, 26);
-    color: white;
-    text-shadow: 0px 0px 5px black;
-}
-
-.menu li ul{
-    position: absolute;
-    top: 25px;
-    left: 0;
-    background-color: rgb(37, 36, 36);
-    display: none;
-}
-
-.menu li:hover ul, .menu li.over ul{
-    display: block;
-}
-
-.menu li ul li{
-    border: 1px solid black;
-    display: block;
-    width: 140px;
-}
-
 .img_logo{
     width: 20%;
-}
-
-.itens_Menu{
-    padding-top: 1%;
-    line-height: 1.5;
-    text-align: center;
-    font-size: 1.3em;
-    padding: 2%;
-}
-
-.itens_Menu a:visited, .itens_Menu a:link{
-    color: #00FA9A	;
-    text-decoration: none;
-    font-weight: bolder;
-}
-
-.itens_Menu a:hover{
-    background-color: rgb(169,169,169, 0.7);
-    padding: 0,9%;
-}
-
-.itens_Menu a:active{
-    color: aqua;
 }
 
 #MI a:visited, #MI a:link{
@@ -92,7 +28,6 @@ header{
 #MI a:hover{
     color: #696969	;
 }
-
 
 h1{
     color: 	#808080;
@@ -266,27 +201,18 @@ input[type=submit]{
     align-items: center;
     }    
 
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-      }
+    .container{
+        margin: 2em auto;
+    }
 
-      .Logo{
+    .Logo{
         text-align: left;
         width: 200%;
+        height: 0;
     }
 
     .botao{
         height: 1cm;
-    }
-
-    .itens_Menu{
-        padding-top: 1%;
-        line-height: 1.5;
-        text-align: center;
-        font-size: 0.7em;
-        padding: 2%;
     }
 
     p{
@@ -297,6 +223,45 @@ input[type=submit]{
         font-size: 175%;
     }
 
+    ul{
+        list-style-type: none;
+        margin: auto;
+        padding: 0;
+        width:50%;
+        float: center;
+      }
+
+      ul li{
+        position: relative;
+      }
+
+      li ul{
+        position:unset;
+        left: 149px;
+        top: 0;
+        display: none;
+      }
+
+      ul li a{
+        display: block;
+        text-decoration: none;
+        color: springgreen;
+        background-color: rgba(77, green, blue, alpha);
+        padding: 5px;
+        border: 1px solid rgb(34, 34, 34);
+      }
+
+      *html ul li {
+        float: center;
+      }
+
+      *html ul li a{
+        height: 1%;
+      }
+
+      li:hover ul{
+        display: block;
+      }
 }
 
 /*Altera as imagens maiores de 601px*/
@@ -312,6 +277,47 @@ input[type=submit]{
     .Logo{
         text-align: left;
         width: 150%;
+    }
+
+    .menu{
+        list-style: none;
+        float: right;
+    }
+    
+    .menu li{
+        position:relative;
+        float: left;
+    }
+    
+    .menu li a{
+        color:springgreen;
+        text-decoration: none;
+        padding: 5px 10px;
+        display: block;
+    }
+    
+    .menu li a:hover{
+        background:rgb(26, 68, 26);
+        color: white;
+        text-shadow: 0px 0px 5px black;
+    }
+    
+    .menu li ul{
+        position: absolute;
+        top: 25px;
+        left: 0;
+        background-color: rgb(37, 36, 36);
+        display: none;
+    }
+    
+    .menu li:hover ul, .menu li.over ul{
+        display: block;
+    }
+    
+    .menu li ul li{
+        border: 1px solid black;
+        display: block;
+        width: 140px;
     }
 
 }
