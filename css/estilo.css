@@ -177,7 +177,7 @@ input[type=submit]{
 }
 
 .fixo{
-    position:absolute;
+    position:;
     top: 0;
     width: 100%;
     z-index: 1000;
@@ -292,7 +292,7 @@ input[type=submit]{
     }
 
     .fundo_menu{
-        background-color: rgba(236, 240, 241, 30%);
+        background-color: rgb(87, 87, 87);
         padding: 7.85%;
         width: 200%;
     }
